@@ -1,0 +1,7 @@
+.item {
+  color: light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-1));
+  background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
+  box-shadow: 0px 0px 60px -32px #00000057;
+  border-radius: 5px;
+  border: 1px solid light-dark(var(--mantine-color-gray-2), var(--mantine-color-dark-4));
+}
