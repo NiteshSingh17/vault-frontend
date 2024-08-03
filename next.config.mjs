@@ -15,8 +15,9 @@ export default withBundleAnalyzer({
   images: {
     remotePatterns: [
       {
-        protocol: 'http',
-        hostname: 'localhost',
+        protocol: 'https',
+        hostname: 'vault-backend-11zb.onrender.com',
+        pathname: '/**',
       },
     ],
   },

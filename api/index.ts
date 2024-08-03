@@ -10,7 +10,7 @@ import {
 import { LoginResponse, UploadMediaFileResponse } from './response';
 
 export function getApiBaseUrl(): string {
-  return 'http://localhost:3001/';
+  return 'https://vault-backend-11zb.onrender.com/';
 }
 
 const API_BASE_URL = getApiBaseUrl();
